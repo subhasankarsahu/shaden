@@ -13,7 +13,7 @@
 
 ### *Own the Unseen.*
 
-**A Full-Stack Streetwear E-Commerce Platform Built for Modern Web Standards**
+**A Hands-On Full-Stack E-Commerce Engineering Project Built to Master Web Development Fundamentals**
 
 <p align="center">
   <a href="https://github.com/subhasankarsahu/shaden">
@@ -38,9 +38,9 @@
 </p>
 
 <p align="center">
-  SHADEN bridges underground urban aesthetics with uncompromising software engineering fundamentals.
+  SHADEN bridges underground urban streetwear aesthetics with uncompromising software engineering fundamentals.
   <br />
-  Engineered from scratch to demonstrate relational data integrity, robust RESTful APIs, secure auth workflows, and responsive client architectures.
+  Built as a deliberate, hands-on learning project to master full-stack software development from first principles—not a commercial storefront for sale, but a focused environment for writing clean, understandable code, learning modern web architectures, and practicing real-world Git discipline.
 </p>
 
 ---
@@ -77,23 +77,24 @@
 
 ## About the Project
 
-**SHADEN** is a full-stack e-commerce platform designed specifically for the streetwear and contemporary urban apparel vertical. The project goes beyond surface-level templates by focusing deliberately on clean architecture, end-to-end data modeling, relational consistency, and defense-in-depth security principles.
+**SHADEN** is a full-stack streetwear e-commerce platform designed and built specifically as a hands-on learning and development laboratory. It is **not** a commercial product created for sale or business deployment; rather, it is a personal software engineering project undertaken to deeply understand, build, and master real-world full-stack web applications from the ground up.
 
-Rather than relying on plug-and-play third-party storefront builders or opaque boilerplates, SHADEN is constructed modularly to showcase how real-world commercial web applications handle:
-- Complex catalog filtering, category nesting, and inventory variants (size, color, SKU).
-- ACID-compliant transactional consistency across orders, payments, and stock allocations.
-- Stateless token-based authentication and role-based access control (RBAC).
-- Decoupled client-server communication via a predictable RESTful JSON API.
+Instead of relying on turnkey e-commerce builders, uninspected boilerplates, or automated "vibe-coding," every part of SHADEN is written deliberately to understand how modern full-stack systems actually operate:
+- **Writing Understandable, Self-Authored Code:** Every controller, service function, database query, and React component is written to be clean, readable, thoroughly understood, and maintainable.
+- **Relational Data Modeling from Scratch:** Understanding PostgreSQL schema design, foreign keys, variant relationships, and transactional data integrity using Prisma ORM.
+- **Layered Backend Architecture:** Structuring Express 5 around clean separation of concerns (Routes $\rightarrow$ Middleware $\rightarrow$ Controllers $\rightarrow$ Services).
+- **Security from First Principles:** Learning the real mechanics of stateless JWT authentication, password hashing (`bcrypt`), defensive headers (`helmet`), and CORS.
+- **Git & Development Discipline:** Maintaining atomic commits, clear documentation, strict `.gitignore` boundaries, and continuous code comprehension throughout the build.
 
 ---
 
 ## Project Objectives
 
-1. **Demonstrate Clean Engineering Practices:** Maintain strict separation of concerns through layered backend design (Routes $\rightarrow$ Middleware $\rightarrow$ Controllers $\rightarrow$ Services $\rightarrow$ Database).
-2. **Relational Data Integrity:** Model real-world e-commerce entities in PostgreSQL with proper foreign key constraints, indexes, cascade policies, and migration tracking.
-3. **Robust Security Posture:** Implement industry-standard security headers, request sanitization, CORS restrictions, rate-limiting, secure password hashing (`bcrypt`), and token lifecycle management (`JWT`).
-4. **Deterministic Version Control:** Maintain impeccable Git hygiene, explicit `.gitignore` boundaries, semantic branch conventions, and zero-leakage policies for secrets and local tool caches.
-5. **Production-Ready Deployment Foundations:** Scaffold codebases that cleanly decouple environment configuration from application logic, paving the way for Docker containerization and cloud deployment.
+1. **Hands-On Development Practice:** Write, understand, and commit each feature manually to build genuine software engineering intuition rather than copying opaque code.
+2. **Layered Backend Architecture:** Maintain strict separation of concerns through modular Express design (Routes $\rightarrow$ Middleware $\rightarrow$ Controllers $\rightarrow$ Services $\rightarrow$ Database).
+3. **Relational Data Integrity:** Model real-world e-commerce entities in PostgreSQL with proper foreign key constraints, indexes, cascade policies, and migration tracking.
+4. **Robust Security Posture:** Implement industry-standard security headers, request sanitization, CORS restrictions, rate-limiting, secure password hashing (`bcrypt`), and token lifecycle management (`JWT`).
+5. **Deterministic Version Control:** Practice professional Git hygiene, semantic branch conventions, and atomic commits for every milestone.
 
 ---
 
